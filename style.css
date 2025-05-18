@@ -1,33 +1,54 @@
-.top-header {
-  background-color: #f5f0dc;
+/* الشريط العلوي الرسمي */
+.topbar {
+  background-color: #f3f0e0;
+  border-bottom: 1px solid #ccc;
+  padding: 0.6em 1.5em;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0.4em 1em;
-  font-size: 0.9em;
-  border-bottom: 1px solid #ccc;
+  font-family: 'Tahoma', sans-serif;
+  font-size: 0.95em;
   direction: rtl;
 }
 
-.top-right {
+.topbar-right {
   display: flex;
   align-items: center;
-  gap: 0.5em;
+  gap: 0.7em;
 }
 
-.top-right .mini-logo {
-  height: 30px;
+.topbar-logo {
+  height: 40px;
 }
 
-.top-left a {
-  margin-left: 1em;
-  text-decoration: none;
-  color: #333;
+.topbar-info {
   font-weight: bold;
+  color: #222;
 }
 
-.top-left a:hover {
-  text-decoration: underline;
+.topbar-info a {
+  color: #005f6a;
+  text-decoration: none;
+}
+
+.topbar-left {
+  display: flex;
+  gap: 1em;
+}
+
+.topbar-link {
+  color: #333;
+  text-decoration: none;
+  font-weight: bold;
+  border: 1px solid #ccc;
+  padding: 0.3em 0.8em;
+  border-radius: 5px;
+  background-color: #fff;
+  transition: 0.3s;
+}
+
+.topbar-link:hover {
+  background-color: #eee;
 }
 
 body {
