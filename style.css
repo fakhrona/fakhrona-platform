@@ -18,7 +18,8 @@
 }
 
 .topbar-logo {
-  height: 40px;
+  height: 28px; /* ✅ تم تصغير حجم الشعار */
+  margin-right: 6px;
 }
 
 .topbar-info {
@@ -51,6 +52,7 @@
   background-color: #eee;
 }
 
+/* باقي تنسيقات الصفحة */
 body {
   font-family: 'Tahoma', sans-serif;
   margin: 0;
