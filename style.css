@@ -1,3 +1,35 @@
+.top-header {
+  background-color: #f5f0dc;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0.4em 1em;
+  font-size: 0.9em;
+  border-bottom: 1px solid #ccc;
+  direction: rtl;
+}
+
+.top-right {
+  display: flex;
+  align-items: center;
+  gap: 0.5em;
+}
+
+.top-right .mini-logo {
+  height: 30px;
+}
+
+.top-left a {
+  margin-left: 1em;
+  text-decoration: none;
+  color: #333;
+  font-weight: bold;
+}
+
+.top-left a:hover {
+  text-decoration: underline;
+}
+
 body {
   font-family: 'Tahoma', sans-serif;
   margin: 0;
