@@ -18,7 +18,7 @@
 }
 
 .topbar-logo {
-  height: 50px; /* ✅ تم تصغير حجم الشعار */
+  height: 100px; /* ✅ تم تصغير حجم الشعار */
   margin-right: 6px;
 }
 
