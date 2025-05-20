@@ -128,42 +128,5 @@ footer {
   padding: 1em;
   margin-top: 2em;
 }
-@media (max-width: 768px) {
-  .topbar {
-    flex-direction: column;
-    align-items: flex-start;
-    gap: 0.6em;
-    padding: 0.8em;
-    text-align: right;
-  }
 
-  .topbar-left {
-    width: 100%;
-    justify-content: flex-end;
-  }
-
-  .topbar-right {
-    flex-direction: column;
-    align-items: flex-start;
-    width: 100%;
-  }
-
-  .topbar-logo {
-    height: 40px;
-  }
-
-  .icon-nav {
-    flex-direction: column;
-    align-items: stretch;
-  }
-
-  .icon-nav button {
-    width: 100%;
-    text-align: right;
-  }
-
-  main {
-    padding: 1em;
-  }
-}
 
